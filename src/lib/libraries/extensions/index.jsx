@@ -10,6 +10,9 @@ import penInsetIconURL from './pen/pen-small.svg';
 import videoSensingIconURL from './videoSensing/video-sensing.png';
 import videoSensingInsetIconURL from './videoSensing/video-sensing-small.svg';
 
+import bmltlIconURL from './bmltl/bmltl.png';
+import bmltlInsetIconURL from './bmltl/bmltl-small.png';
+
 import text2speechIconURL from './text2speech/text2speech.png';
 import text2speechInsetIconURL from './text2speech/text2speech-small.svg';
 
@@ -47,6 +50,26 @@ import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 export default [
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="BML TL"
+                description="Name for the 'BML TL' extension"
+                id="gui.extension.bmltl.name"
+            />
+        ),
+        extensionId: 'bmltl',
+        iconURL: bmltlIconURL,
+        insetIconURL: bmltlInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Blocks for Machine Larning (Transfer Learning)"
+                description="Description for the 'BML TL' extension"
+                id="gui.extension.bmltl.description"
+            />
+        ),
+        featured: true
+    },
     {
         name: (
             <FormattedMessage
