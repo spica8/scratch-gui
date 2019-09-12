@@ -13,11 +13,11 @@ import videoSensingInsetIconURL from './videoSensing/video-sensing-small.svg';
 import bmltlIconURL from './bmltl/bmltl.png';
 import bmltlInsetIconURL from './bmltl/bmltl-small.png';
 
-import bmlicIconURL from './bmlic/bmlic.png';
-import bmlicInsetIconURL from './bmlic/bmlic-small.png';
+import bmltlicIconURL from './bmltlic/bmltlic.png';
+import bmltlicInsetIconURL from './bmltlic/bmltlic-small.png';
 
-import bmlknnIconURL from './bmlknn/bmlknn.png';
-import bmlknnInsetIconURL from './bmlknn/bmlknn-small.png';
+import bmltlknnIconURL from './bmltlknn/bmltlknn.png';
+import bmltlknnInsetIconURL from './bmltlknn/bmltlknn-small.png';
 
 import text2speechIconURL from './text2speech/text2speech.png';
 import text2speechInsetIconURL from './text2speech/text2speech-small.svg';
@@ -85,8 +85,8 @@ export default [
             />
         ),
         extensionId: 'bmlic',
-        iconURL: bmlicIconURL,
-        insetIconURL: bmlicInsetIconURL,
+        iconURL: bmltlicIconURL,
+        insetIconURL: bmltlicInsetIconURL,
         description: (
             <FormattedMessage
                 defaultMessage="Blocks for Machine Larning (Image Classifier with pre-trained model)"
